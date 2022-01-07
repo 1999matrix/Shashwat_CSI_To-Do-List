@@ -16,7 +16,7 @@ body {
 	/* background-color: #374151; */
 	/* background-color: rgb(158, 45, 45); */
     /* background-image: linear-gradient(to right ,#ee0979, #ff6a00); */
-	background-image: linear-gradient(to right ,#000000, #434343);
+	background-image: linear-gradient(to bottom ,#2980b9, #2c3e50);
     
 }
 
@@ -48,7 +48,7 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-	background-color: #3a6aad;
+	background-color: #111827;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
@@ -56,18 +56,18 @@ input, button {
 	font-size: 1.25rem;
 }
 
-#new-task-input::placeholder {
+/* #new-task-input::placeholder {
 	color: #e9ecf3;
-}
+} */
 
 #new-task-submit {
    
-	color: #EC4899;
+	color: #0bf52a;
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right,#EC4899 , #8B5CF6);
+	/* background-image: linear-gradient(to right,#EC4899 , #8B5CF6);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 	cursor: pointer;
 	transition: 0.4s;
 }
@@ -99,7 +99,7 @@ main {
 	margin-bottom: 1rem;
     /* -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right ,#ff4b1f , #1fddff ); */
+  /*  background-image: linear-gradient(to right ,#ff4b1f , #1fddff ); */
 }
 
 #tasks .task {
